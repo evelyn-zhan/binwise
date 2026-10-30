@@ -3,4 +3,18 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    background-color: #F8F9FD;  
+    @apply flex justify-center;
+}
+
+.root {
+    @apply w-full h-full;
+}
+
+@theme {
+    --color-text: #0c0c0d;
+    --color-background: #F8F9FD;
+    --color-primary: #0084D1;
+    --color-secondary: #36a0df;
+    --color-accent: #F0F9FF;
 }
