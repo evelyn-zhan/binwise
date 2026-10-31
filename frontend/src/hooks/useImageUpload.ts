@@ -25,7 +25,10 @@ function useImageUpload() {
         const response = await predict(rawImage)
 
         if (response.isError) console.log(response.message)
-        else setResult(response.message)
+        else {
+            setResult(response.message)
+            document.getElementById('result')?.scrollIntoView({ behavior: 'smooth' })
+        }
     }
 
     return { preview, handlePreviewChange, classify, result }
