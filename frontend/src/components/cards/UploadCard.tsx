@@ -8,7 +8,7 @@ interface Props {
     classify: () => void
 }
 
-function PhotoUpload({ preview, handlePreviewChange, classify }: Props ) {
+function UploadCard({ preview, handlePreviewChange, classify }: Props ) {
     return (
     <div className={`bg-white h-fit flex flex-col gap-y-3.5 px-8 py-4 border border-[#E9EAF2] rounded-xl`}>
         <span className={`text-md font-medium`}>Upload a photo</span>
@@ -23,4 +23,4 @@ function PhotoUpload({ preview, handlePreviewChange, classify }: Props ) {
     </div>
 )}
 
-export default PhotoUpload
+export default UploadCard
