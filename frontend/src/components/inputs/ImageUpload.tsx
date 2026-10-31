@@ -10,8 +10,8 @@ function ImageUpload({ preview, handlePreviewChange } : Props) {
     <div className={`h-60 flex items-end border-2 border-gray-200 border-dashed rounded-xl relative`}>
         { preview && <img src={preview} className={`bg-gray-50 w-full h-full inset-0 object-contain absolute`} /> }
         <div className={`${preview && 'z-10'} bg-background/70 w-full h-fit flex flex-col items-center gap-y-0.5 py-2 border-t border-gray-200 rounded-b-xl`}>
-            <div className={`flex flex-row gap-x-1 justify-center items-center text-sm text-secondary font-medium`}>
-                <RiImageUploadLine className={`size-5`}/>
+            <div className={`flex flex-row gap-x-1 justify-center items-center text-xs md:text-sm text-secondary font-medium`}>
+                <RiImageUploadLine className={`size-4.5 md:size-5`}/>
                 <span>Browse your file</span>
                 <span className={`text-gray-500`}>and upload an image</span>
             </div>

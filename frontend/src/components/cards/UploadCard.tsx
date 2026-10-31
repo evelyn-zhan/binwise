@@ -10,7 +10,7 @@ interface Props {
 
 function UploadCard({ preview, handlePreviewChange, classify }: Props ) {
     return (
-    <div className={`bg-white h-fit flex flex-col gap-y-3.5 px-8 py-4 border border-[#E9EAF2] rounded-xl`}>
+    <div className={`bg-white h-fit flex flex-col gap-y-3.5 px-4 py-3 md:px-8 md:py-4 border border-[#E9EAF2] rounded-xl`}>
         <span className={`text-md font-medium`}>Upload a photo</span>
         
         <ImageUpload preview={preview} handlePreviewChange={handlePreviewChange}/>
