@@ -1,8 +1,11 @@
 import { RiImageUploadLine } from "@remixicon/react"
-import useImageUpload from "../../hooks/useImageUpload"
 
-function ImageUpload() {
-    const { preview, handlePreviewChange } = useImageUpload();
+interface Props {
+    preview: string | undefined, 
+    handlePreviewChange: (e: React.ChangeEvent<HTMLInputElement>) => void,
+}
+
+function ImageUpload({ preview, handlePreviewChange } : Props) {
 
     return (
     <div className={`h-60 border-2 border-gray-200 border-dashed rounded-xl flex items-end relative`}>
