@@ -1,8 +1,11 @@
 import PhotoUpload from "./components/cards/UploadCard"
 import ResultCard from "./components/cards/ResultCard"
 import NavBar from "./navigations/NavBar"
+import useImageUpload from "./hooks/useImageUpload"
 
 function App() {
+    const { preview, handlePreviewChange, classify, result } = useImageUpload()
+
     return (
     <main className={`max-w-480 max-h-256 w-screen h-screen flex flex-col`}>
       <NavBar />
@@ -12,8 +15,8 @@ function App() {
           <h2 className={`text-sm text-gray-500`}>Upload a photo to identify your waste.</h2>
         </div>
         <div className={`grid grid-cols-2 gap-x-6`}>
-          <PhotoUpload />
-          <ResultCard />
+          <PhotoUpload preview={preview} handlePreviewChange={handlePreviewChange} classify={classify}/>
+          <ResultCard result={result} />
         </div>
       </div>
     </main>
