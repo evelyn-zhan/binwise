@@ -16,7 +16,7 @@ function UploadCard({ preview, handlePreviewChange, classify }: Props ) {
         <ImageUpload preview={preview} handlePreviewChange={handlePreviewChange}/>
         <ClassifyButton onClick={classify}/>
 
-        <div className={`w-full flex flex-row justify-center items-center gap-x-2 py-1 text-xs text-gray-500 font-medium`}>
+        <div className={`w-full flex flex-row justify-center items-center gap-x-2 text-xs text-gray-500 font-medium`}>
             <RiQrScanAiLine className={`size-5`}/>
             <span>For best result, upload a clear image of the trash</span>
         </div>
