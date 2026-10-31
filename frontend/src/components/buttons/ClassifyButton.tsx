@@ -1,8 +1,13 @@
 import { RiArrowRightLine, RiSparklingLine } from "@remixicon/react";
 
-function ClassifyButton() {
+interface Props {
+    onClick: () => void
+}
+
+function ClassifyButton({ onClick }: Props) {
+
     return (
-    <button className={`
+    <button onClick={onClick} className={`
         flex flex-row justify-center items-center gap-x-2
         py-2.5 rounded-xl 
         transition bg-primary/90 hover:bg-primary
