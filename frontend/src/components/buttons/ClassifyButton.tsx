@@ -8,10 +8,10 @@ function ClassifyButton({ onClick }: Props) {
 
     return (
     <button onClick={onClick} className={`
-        flex flex-row justify-center items-center gap-x-2
-        py-2.5 rounded-xl 
-        transition bg-primary/90 hover:bg-primary
+        bg-primary/90
+        flex flex-row justify-center items-center gap-x-2 py-2.5 rounded-xl 
         text-white
+        transition hover:bg-primary
         cursor-pointer
     `}>
         <RiSparklingLine className={`size-5`} />

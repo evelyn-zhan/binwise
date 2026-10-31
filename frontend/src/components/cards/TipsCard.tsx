@@ -3,7 +3,7 @@ import { RiLightbulbAiLine } from "@remixicon/react";
 function TipsCard() {
     return (
     <div className={`bg-accent h-fit flex flex-col gap-y-2 px-4 py-5 rounded-lg`}>
-        <div className={`flex flex-row gap-x-2 text-primary items-center`}>
+        <div className={`flex flex-row gap-x-2 items-center text-primary`}>
             <RiLightbulbAiLine className={`size-5`} />
             <span className={`text-sm font-semibold`}>General Sorting Tips:</span>
         </div>
