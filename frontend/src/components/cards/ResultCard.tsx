@@ -12,7 +12,7 @@ function ResultCard({ result }: Props) {
         <div className={`h-full flex flex-col justify-between`}>
             <div className={`flex flex-col gap-y-1.5`}>
                 <span className={`uppercase text-xs font-medium text-gray-500`}>Predicted Category</span>
-                <span className={`text-xl font-semibold`}>{ result }</span>
+                <span className={`text-xl font-semibold h-10`}>{ result }</span>
             </div>
             <TipsCard />
             <div className={`flex flex-row gap-x-2 items-center justify-center text-xs text-gray-400`}>
