@@ -1,11 +1,10 @@
-import { RiArrowRightLine, RiSparklingLine } from "@remixicon/react";
+import { RiArrowRightLine, RiSparklingLine } from "@remixicon/react"
 
 interface Props {
     onClick: () => void
 }
 
 function ClassifyButton({ onClick }: Props) {
-
     return (
     <button onClick={onClick} className={`
         bg-primary/90

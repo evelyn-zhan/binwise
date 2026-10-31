@@ -6,7 +6,6 @@ interface Props {
 }
 
 function ImageUpload({ preview, handlePreviewChange } : Props) {
-
     return (
     <div className={`h-60 flex items-end border-2 border-gray-200 border-dashed rounded-xl relative`}>
         { preview && <img src={preview} className={`bg-gray-50 w-full h-full inset-0 object-contain absolute`} /> }

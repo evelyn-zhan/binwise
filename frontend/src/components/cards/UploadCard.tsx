@@ -1,6 +1,6 @@
 import { RiQrScanAiLine } from "@remixicon/react"
-import ClassifyButton from "../buttons/ClassifyButton";
-import ImageUpload from "../inputs/ImageUpload";
+import ClassifyButton from "../buttons/ClassifyButton"
+import ImageUpload from "../inputs/ImageUpload"
 
 interface Props {
     preview: string | undefined,

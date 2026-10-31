@@ -17,7 +17,7 @@ function ResultCard({ result }: Props) {
             <TipsCard />
             <div className={`flex flex-row gap-x-1 items-center justify-center text-xs text-gray-400`}>
                 <RiInformation2Line className={`size-5`}/>
-                <span>AI can make mistakes. Please double-check to ensure proper sorting. </span>
+                <span>AI can make mistakes. Please double-check to ensure proper sorting.</span>
             </div>
         </div>   
     </div>

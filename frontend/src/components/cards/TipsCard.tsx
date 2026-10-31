@@ -1,4 +1,4 @@
-import { RiLightbulbAiLine } from "@remixicon/react";
+import { RiLightbulbAiLine } from "@remixicon/react"
 
 function TipsCard() {
     return (
@@ -15,4 +15,4 @@ function TipsCard() {
     </div>
 )}
 
-export default TipsCard;
+export default TipsCard
