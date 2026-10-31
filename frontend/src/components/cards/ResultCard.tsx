@@ -7,7 +7,7 @@ interface Props {
 
 function ResultCard({ result }: Props) {
     return (
-    <div className={`bg-white flex flex-col gap-y-3.5 px-4 py-3 md:px-8 md:py-4 border border-[#E9EAF2] rounded-xl`}>
+    <div id='result' className={`bg-white flex flex-col gap-y-3.5 px-4 py-3 md:px-8 md:py-4 border border-[#E9EAF2] rounded-xl`}>
         <span className={`text-md font-medium`}>Result</span>
         <div className={`h-full flex flex-col justify-between`}>
             <div className={`flex flex-col gap-y-1.5`}>
