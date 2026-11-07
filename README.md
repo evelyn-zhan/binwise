@@ -1,11 +1,13 @@
 # ♻️ Binwise — Waste Image Classifier
 
-![Python](https://img.shields.io/badge/Python-3-blue)
+![Python](https://img.shields.io/badge/Python-blue)
 ![Flask](https://img.shields.io/badge/Backend-Flask-black)
 ![React](https://img.shields.io/badge/Frontend-React%20%2B%20TS-61DAFB)
 ![Model](https://img.shields.io/badge/Model-EfficientNetV2B0-orange)
 
 Binwise merupakan aplikasi web untuk mengklasifikasikan sampah berdasarkan gambar dengan memanfaatkan deep learning. Unggah sebuah gambar dan Binwise akan memberitahu kategori sampah tersebut, sehingga pemilahan sampah menjadi cepat dan mudah.
+
+🔗 **Deployment:** [https://binwise-web.vercel.app](https://binwise-web.vercel.app)
 
 ## 🌟 Fitur
 
