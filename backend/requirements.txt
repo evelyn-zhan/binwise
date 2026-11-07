@@ -1,0 +1,5 @@
+numpy
+tensorflow
+PIL
+flask
+flask_cors
