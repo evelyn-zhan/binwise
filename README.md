@@ -1,18 +1,18 @@
-# ♻️ BinWise — Waste Image Classifier
+# ♻️ Binwise — Waste Image Classifier
 
 ![Python](https://img.shields.io/badge/Python-3-blue)
 ![Flask](https://img.shields.io/badge/Backend-Flask-black)
 ![React](https://img.shields.io/badge/Frontend-React%20%2B%20TS-61DAFB)
 ![Model](https://img.shields.io/badge/Model-EfficientNetV2B0-orange)
 
-A web app that classifies waste from a photo using deep learning. Upload an image, and BinWise will tell you what type of waste it is, so sorting your trash becomes quick and easy.
+Binwise merupakan aplikasi web untuk mengklasifikasikan sampah berdasarkan gambar dengan memanfaatkan deep learning. Unggah sebuah gambar dan Binwise akan memberitahu kategori sampah tersebut, sehingga pemilahan sampah menjadi cepat dan mudah.
 
-## 🌟 Features
+## 🌟 Fitur
 
-- **Image Upload:** Upload a photo of waste directly from the web interface.
-- **Instant Results:** Get the predicted waste category within seconds.
+- **Unggah Gambar:** Unggah gambar sampah langsung ke antarmuka aplikasi web.
+- **Hasil Instan:** Dapatkan hasil prediksinya dalam hitungan detik.
 
-## 🛠️ Tech Stack
+## 🛠️ Teknologi
 
 ### 🎨 Frontend
 
@@ -27,34 +27,34 @@ A web app that classifies waste from a photo using deep learning. Upload an imag
 
 - EfficientNetV2B0 (transfer learning / fine-tuning)
 
-## 📁 Project Structure
+## 📁 Struktur Proyek
 
 ```
 binwise/
-├── backend/     # Flask API that serves the model
-├── frontend/    # React + TypeScript web app
-└── notebook/    # Data exploration, training, and evaluation
+├── backend/     # API Flask yang menyajikan model
+├── frontend/    # Aplikasi web React + TypeScript
+└── notebook/    # Eksplorasi data, pelatihan, dan evaluasi model
 ```
 
-## ⚡ Quick Start
+## ⚡ Cara Menjalankan Proyek
 
-### 1. Clone the repository
+### 1. Clone repository
 
 ```bash
 git clone https://github.com/evelyn-zhan/binwise.git
 cd binwise
 ```
 
-### 2. Run the backend
+### 2. Jalankan backend
 
 ```bash
 cd backend
 pip install -r requirements.txt
 ```
 
-To run locally, open `app.py` and edit the bottom of the file:
-- uncomment the first `app.run(...)` line.
-- comment out the last two lines (those are meant for deployment).
+Untuk menjalankan secara lokal, buka `app.py` lalu ubah bagian bawah file:
+- hapus komentar pada baris `app.run(...)` yang pertama.
+- beri komentar pada dua baris terakhir (keduanya digunakan untuk deployment).
 
 ```python
 if __name__ == "__main__":
@@ -63,17 +63,17 @@ if __name__ == "__main__":
     # app.run(host="0.0.0.0", port=port)
 ```
 
-Then start the server:
+Lalu jalankan servernya:
 
 ```bash
 python app.py
 ```
 
-The API runs at `http://localhost:8000`.
+API akan berjalan di `http://localhost:8000`.
 
-### 3. Run the frontend
+### 3. Jalankan frontend
 
-Open a new terminal, then:
+Buka terminal baru, lalu jalankan:
 
 ```bash
 cd frontend
@@ -81,6 +81,6 @@ npm install
 npm run dev
 ```
 
-Open the URL shown in the terminal (usually `http://localhost:5173`).
+Buka URL yang muncul di terminal (biasanya `http://localhost:5173`).
 
-⚠️ Make sure the backend is running first, otherwise the frontend can't get predictions.
+⚠️ Pastikan backend sudah berjalan terlebih dahulu. Jika tidak, frontend tidak bisa mendapatkan hasil prediksi.
