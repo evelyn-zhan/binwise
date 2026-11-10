@@ -7,7 +7,7 @@
 
 Binwise merupakan aplikasi web untuk mengklasifikasikan sampah berdasarkan gambar dengan memanfaatkan deep learning. Unggah sebuah gambar dan Binwise akan memberitahu kategori sampah tersebut, sehingga pemilahan sampah menjadi cepat dan mudah.
 
-🔗 **Deployment:** [https://binwise-web.vercel.app](https://binwise-web.vercel.app)
+🔗 **Deployment:** [https://binwise-web.vercel.app](https://go-binwise.vercel.app)
 
 ## 🌟 Fitur
 
